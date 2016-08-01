@@ -1,0 +1,23 @@
+{
+    "name" : "jnav24/twigger",
+    "description" : "Basic class to init the Twig Environment with custom functions.",
+    "homepage":"https://bitbucket.org/jnav24/twigger",
+    "license":"MIT",
+    "authors" : [
+        {
+            "name": "Justin Navarro",
+            "homepage": "http://www.justinnavarro.net",
+            "role": "Php Developer"
+        }
+    ],
+    "require" : {
+        "twig/twig" : "1.*",
+        "php" : ">=5.5.9"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "Twigger\\" : "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
